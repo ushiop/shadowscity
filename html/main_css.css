@@ -1,0 +1,28 @@
+	body{ 
+				background:#000;
+				position:relative;
+				top:0px; 
+			}
+			.bottom{ 
+				position:relative;  
+				height:300px;
+				border:1px solid;
+				background-image:url("bottom.png");
+				background-position:center;
+				background-repeat:no-repeat;
+				background-size:100%;
+			}
+			.top_img{
+				position:relative;
+				height:200px; 
+				background:url("top.png");
+				background-position:center;
+				background-repeat:no-repeat; 
+			}		
+			.bottom>p{ 
+			
+				position:relative;  
+				top:70%;
+				text-align:center;
+				color:#ff9900; 
+			}

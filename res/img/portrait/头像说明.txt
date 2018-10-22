@@ -1,0 +1,3 @@
+1、原图片大小为90*90px,dpi为96
+2、PS处理时的圆形选取范围为 SHIFT+椭圆选取 2.72*2.72厘米
+3、新头像放进该目录后，需要修改client\config.js\:7 portrait_max的值

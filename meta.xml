@@ -1,0 +1,260 @@
+<meta>
+    <info name="ShadowsCity" author="ushiop, MadiSolonG" type="gamemode" />
+		<!--
+	<script src="client/test.js" type="client" lang="javascript" />	
+		-->
+
+
+   	<script src="client/playerlist.js" type="client" lang="javascript" />
+	<script src="client/vehicle_call.js" type="client" lang="javascript" />
+	<script src="client/raceroad.js" type="client" lang="javascript" /> 
+	<script src="client/racehouse.js" type="client" lang="javascript" />
+	<script src="client/playerblips.js" type="client" lang="javascript" />
+	<script src="client/edittrack.js" type="client" lang="javascript" />
+	<script src="client/track.js" type="client" lang="javascript" />		
+	<script src="client/acl.js" type="client" lang="javascript" />
+	<script src="client/chat.js" type="client" lang="javascript" />
+	<script src="client/money.js" type="client" lang="javascript" />
+	<script src="client/tablist.js" type="client" lang="javascript" />
+	<script src="client/clothes.js" type="client" lang="javascript" />
+	<script src="client/item.js" type="client" lang="javascript" />	 
+	<script src="client/item_dx.js" type="client" lang="javascript" />	
+	<script src="client/vehicle_main.js" type="client" lang="javascript" />				
+	<script src="client/vehiclechangemod.js" type="client" lang="javascript" /> 
+	<script src="client/pay.js" type="client" lang="javascript" />		
+	<script src="client/mission_dx.js" type="client" lang="javascript" />	
+	<script src="client/config.js" type="client" lang="javascript" />	
+	<script src="client/racetoplist.js" type="client" lang="javascript" />	
+	<script src="client/racetoplist_dx.js" type="client" lang="javascript" />	
+	<script src="client/car_shop.js" type="client" lang="javascript" />	
+	<script src="client/car_shop_dx.js" type="client" lang="javascript" />	
+	<script src="client/mainMenu.js" type="client" lang="javascript" />  
+	<script src="client/menuOpen.js" type="client" lang="javascript" />
+	<script src="client/vehiclespeed.js" type="client" lang="javascript" />			
+	<script src="client/dx_effect.js" type="client" lang="javascript" />	
+	<script src="client/login.js" type="client" lang="javascript" />
+	<script src="client/team.js" type="client" lang="javascript" />
+	<script src="client/team_top.js" type="client" lang="javascript" />
+	<script src="client/team_yaoqing.js" type="client" lang="javascript" />
+
+	<script src="server/DataBaseSdon.cs" type="server" lang="csharp" /> 
+	<script src="server/DataBase.cs" type="server" lang="csharp" /> 	
+	<script src="server/UnixTime.cs" type="server" lang="csharp" />  
+	<script src="server/VehicleMain.cs" type="server" lang="csharp" />  
+	<script src="server/VehicleDataFunc.cs" type="server" lang="csharp" />  
+	<script src="server/item_drop.cs" type="server" lang="csharp" /> 
+	<script src="server/item.cs" type="server" lang="csharp" /> 	
+	<script src="server/login.cs" type="server" lang="csharp" /> 
+	<script src="server/clothes.cs" type="server" lang="csharp" /> 
+	<script src="server/weather.cs" type="server" lang="csharp" /> 
+	<script src="server/chat.cs" type="server" lang="csharp" /> 
+	<script src="server/playerlist.cs" type="server" lang="csharp" /> 
+	<script src="server/playerblips.cs" type="server" lang="csharp" /> 
+	<script src="server/vehiclechangemod.cs" type="server" lang="csharp" /> 
+	<script src="server/TeamMain.cs" type="server" lang="csharp" /> 
+	<script src="server/track.cs" type="server" lang="csharp" /> 
+	<script src="server/RaceRoad.cs" type="server" lang="csharp" />  
+	<script src="server/RaceCheckPoint.cs" type="server" lang="csharp" />  
+	<script src="server/RaceHouse.cs" type="server" lang="csharp" />  
+	<script src="server/Race.cs" type="server" lang="csharp" />  	
+	<script src="server/mission.cs" type="server" lang="csharp" /> 
+	<script src="server/money.cs" type="server" lang="csharp" />  
+	<script src="server/tablist.cs" type="server" lang="csharp" />  
+	<script src="server/pingkick.cs" type="server" lang="csharp" />  
+	<script src="server/acl.cs" type="server" lang="csharp" />  
+	<script src="server/pay.cs" type="server" lang="csharp" />		 	
+	<script src="server/festival.cs" type="server" lang="csharp" />  
+	<script src="server/userinfo.cs" type="server" lang="csharp" />  
+ 	<script src="server/config.cs" type="server" lang="csharp" /> 
+	<script src="server/car_shop.cs" type="server" lang="csharp" /> 
+	<script src="server/TeamDataFunc.cs" type="server" lang="csharp" /> 
+	<script src="server/html.cs" type="server" lang="csharp" /> 
+	
+	<script src="server/html_create.cs" type="server" lang="csharp" /> 
+	
+	<!--头像文件-->
+	<file src="res\img\portrait\0.png" />
+	<file src="res\img\portrait\1.png" />
+	<file src="res\img\portrait\2.png" />
+	<file src="res\img\portrait\3.png" />
+	<file src="res\img\portrait\4.png" />
+	<file src="res\img\portrait\5.png" />
+	<file src="res\img\portrait\6.png" />
+	
+	
+	<!--百分比统计图 圆形图片-->
+	<file src="res\img\percentage\round\0.png" />
+    <file src="res\img\percentage\round\1.png" />
+    <file src="res\img\percentage\round\2.png" />
+    <file src="res\img\percentage\round\3.png" />
+    <file src="res\img\percentage\round\4.png" />
+    <file src="res\img\percentage\round\5.png" />
+    <file src="res\img\percentage\round\6.png" />
+    <file src="res\img\percentage\round\7.png" />
+    <file src="res\img\percentage\round\8.png" />
+    <file src="res\img\percentage\round\9.png" />
+    <file src="res\img\percentage\round\10.png" />
+    <file src="res\img\percentage\round\11.png" />
+    <file src="res\img\percentage\round\12.png" />
+    <file src="res\img\percentage\round\13.png" />
+    <file src="res\img\percentage\round\14.png" />
+    <file src="res\img\percentage\round\15.png" />
+    <file src="res\img\percentage\round\16.png" />
+    <file src="res\img\percentage\round\17.png" />
+    <file src="res\img\percentage\round\18.png" />
+    <file src="res\img\percentage\round\19.png" />
+    <file src="res\img\percentage\round\20.png" />
+    <file src="res\img\percentage\round\21.png" />
+    <file src="res\img\percentage\round\22.png" />
+    <file src="res\img\percentage\round\23.png" />
+    <file src="res\img\percentage\round\24.png" />
+    <file src="res\img\percentage\round\25.png" />
+    <file src="res\img\percentage\round\26.png" />
+    <file src="res\img\percentage\round\27.png" />
+    <file src="res\img\percentage\round\28.png" />
+    <file src="res\img\percentage\round\29.png" />
+    <file src="res\img\percentage\round\30.png" />
+    <file src="res\img\percentage\round\31.png" />
+    <file src="res\img\percentage\round\32.png" />
+    <file src="res\img\percentage\round\33.png" />
+    <file src="res\img\percentage\round\34.png" />
+    <file src="res\img\percentage\round\35.png" />
+    <file src="res\img\percentage\round\36.png" />
+    <file src="res\img\percentage\round\37.png" />
+    <file src="res\img\percentage\round\38.png" />
+    <file src="res\img\percentage\round\39.png" />
+    <file src="res\img\percentage\round\40.png" />
+    <file src="res\img\percentage\round\41.png" />
+    <file src="res\img\percentage\round\42.png" />
+    <file src="res\img\percentage\round\43.png" />
+    <file src="res\img\percentage\round\44.png" />
+    <file src="res\img\percentage\round\45.png" />
+    <file src="res\img\percentage\round\46.png" />
+    <file src="res\img\percentage\round\47.png" />
+    <file src="res\img\percentage\round\48.png" />
+    <file src="res\img\percentage\round\49.png" />
+    <file src="res\img\percentage\round\50.png" />
+    <file src="res\img\percentage\round\51.png" />
+    <file src="res\img\percentage\round\52.png" />
+    <file src="res\img\percentage\round\53.png" />
+    <file src="res\img\percentage\round\54.png" />
+    <file src="res\img\percentage\round\55.png" />
+    <file src="res\img\percentage\round\56.png" />
+    <file src="res\img\percentage\round\57.png" />
+    <file src="res\img\percentage\round\58.png" />
+    <file src="res\img\percentage\round\59.png" />
+    <file src="res\img\percentage\round\60.png" />
+    <file src="res\img\percentage\round\61.png" />
+    <file src="res\img\percentage\round\62.png" />
+    <file src="res\img\percentage\round\63.png" />
+    <file src="res\img\percentage\round\64.png" />
+    <file src="res\img\percentage\round\65.png" />
+    <file src="res\img\percentage\round\66.png" />
+    <file src="res\img\percentage\round\67.png" />
+    <file src="res\img\percentage\round\68.png" />
+    <file src="res\img\percentage\round\69.png" />
+    <file src="res\img\percentage\round\70.png" />
+    <file src="res\img\percentage\round\71.png" />
+    <file src="res\img\percentage\round\72.png" />
+    <file src="res\img\percentage\round\73.png" />
+    <file src="res\img\percentage\round\74.png" />
+    <file src="res\img\percentage\round\75.png" />
+    <file src="res\img\percentage\round\76.png" />
+    <file src="res\img\percentage\round\77.png" />
+    <file src="res\img\percentage\round\78.png" />
+    <file src="res\img\percentage\round\79.png" />
+    <file src="res\img\percentage\round\80.png" />
+    <file src="res\img\percentage\round\81.png" />
+    <file src="res\img\percentage\round\82.png" />
+    <file src="res\img\percentage\round\83.png" />
+    <file src="res\img\percentage\round\84.png" />
+    <file src="res\img\percentage\round\85.png" />
+    <file src="res\img\percentage\round\86.png" />
+    <file src="res\img\percentage\round\87.png" />
+    <file src="res\img\percentage\round\88.png" />
+    <file src="res\img\percentage\round\89.png" />
+    <file src="res\img\percentage\round\90.png" />
+    <file src="res\img\percentage\round\91.png" />
+    <file src="res\img\percentage\round\92.png" />
+    <file src="res\img\percentage\round\93.png" />
+    <file src="res\img\percentage\round\94.png" />
+    <file src="res\img\percentage\round\95.png" />
+    <file src="res\img\percentage\round\96.png" />
+    <file src="res\img\percentage\round\97.png" />
+    <file src="res\img\percentage\round\98.png" />
+    <file src="res\img\percentage\round\99.png" />
+    <file src="res\img\percentage\round\100.png" />
+	
+	<!--登陆界面 LOGO-->
+	<file src="res\img\login_logo\0001.png" />
+    <file src="res\img\login_logo\0002.png" />
+    <file src="res\img\login_logo\0003.png" />
+    <file src="res\img\login_logo\0004.png" />
+    <file src="res\img\login_logo\0005.png" />
+    <file src="res\img\login_logo\0006.png" />
+    <file src="res\img\login_logo\0007.png" />
+    <file src="res\img\login_logo\0008.png" />
+    <file src="res\img\login_logo\0009.png" />
+    <file src="res\img\login_logo\0010.png" />
+    <file src="res\img\login_logo\0011.png" />
+    <file src="res\img\login_logo\0012.png" />
+    <file src="res\img\login_logo\0013.png" />
+    <file src="res\img\login_logo\0014.png" />
+    <file src="res\img\login_logo\0015.png" />
+    <file src="res\img\login_logo\0016.png" />
+    <file src="res\img\login_logo\0017.png" />
+    <file src="res\img\login_logo\0018.png" />
+    <file src="res\img\login_logo\0019.png" />
+    <file src="res\img\login_logo\0020.png" />
+    <file src="res\img\login_logo\0021.png" />
+    <file src="res\img\login_logo\0022.png" />
+    <file src="res\img\login_logo\0023.png" />
+    <file src="res\img\login_logo\0024.png" />
+    <file src="res\img\login_logo\0025.png" />
+    <file src="res\img\login_logo\0026.png" />
+    <file src="res\img\login_logo\0027.png" />
+    <file src="res\img\login_logo\0028.png" />
+    <file src="res\img\login_logo\0029.png" />
+    <file src="res\img\login_logo\0030.png" />
+    <file src="res\img\login_logo\0031.png" />
+    <file src="res\img\login_logo\0032.png" />
+    <file src="res\img\login_logo\0033.png" />
+    <file src="res\img\login_logo\0034.png" />
+    <file src="res\img\login_logo\0035.png" />
+    <file src="res\img\login_logo\0036.png" />
+    <file src="res\img\login_logo\0037.png" />
+    <file src="res\img\login_logo\0038.png" />
+    <file src="res\img\login_logo\0039.png" />
+    <file src="res\img\login_logo\0040.png" />
+    <file src="res\img\login_logo\0041.png" />
+    <file src="res\img\login_logo\0042.png" />
+    <file src="res\img\login_logo\0043.png" />
+    <file src="res\img\login_logo\0044.png" />
+    <file src="res\img\login_logo\0045.png" />
+    <file src="res\img\login_logo\0046.png" />
+    <file src="res\img\login_logo\0047.png" />
+    <file src="res\img\login_logo\0048.png" />
+    <file src="res\img\login_logo\0049.png" />
+    <file src="res\img\login_logo\0050.png" />
+    <file src="res\img\login_logo\0051.png" />
+    <file src="res\img\login_logo\0052.png" />
+    <file src="res\img\login_logo\0053.png" />
+    <file src="res\img\login_logo\0054.png" />
+    <file src="res\img\login_logo\0055.png" />
+    <file src="res\img\login_logo\0056.png" />
+    <file src="res\img\login_logo\0057.png" />
+    <file src="res\img\login_logo\0058.png" />
+    <file src="res\img\login_logo\0059.png" />
+    <file src="res\img\login_logo\0060.png" />
+    <file src="res\img\login_logo\0061.png" />
+    <file src="res\img\login_logo\0062.png" />
+    <file src="res\img\login_logo\0063.png" />
+    <file src="res\img\login_logo\0064.png" />
+    <file src="res\img\login_logo\0065.png" />
+    <file src="res\img\login_logo\0066.png" />
+ 
+	
+	<assembly ref="System.Data.dll" />
+	<assembly ref="Newtonsoft.Json.dll"/>
+	<assembly ref="System.Data.SQLite.dll" />    
+</meta>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title> -ShadowsCity- </title>
+		<link href="../main_css.css" rel="stylesheet">
+		<style type="text/css">	  
+			.list_cop{
+				position:relative;
+				top:20%;
+				left:25%; 
+				width:50%;    
+				min-height:485px;			
+			}
+			table{   
+				width:100%;
+				height:100%;
+				opacity: 0.7;  
+				
+				border-collapse:collapse;	
+				border-spacing:0; 				
+				border-style:none;
+				
+			}
+			th{
+				color:#8080FF;
+				background-color:#d2e9ff;			
+			}		 
+			th,td{
+				width:20%;
+				height:50px;
+				text-align:center;			
+			} 
+			tr:nth-child(even)>td{
+				background-color:#e5f3ff;			
+				box-shadow:0px -25px 10px 0px #d2e9ff; 
+				
+			}	 	
+			tr:nth-child(odd)>td{
+				background-color:#d2e9ff; 
+				box-shadow:0px 25px 10px 0px #e5f3ff; 
+			}	 
+			tr:first-child>th:nth-last-of-type(1){ 
+				border-radius:0 10px 0 0;  
+			}	 
+			tr:first-child>th:nth-last-of-type(5){
+				border-radius: 10px  0 0 0;  
+			}	
+			tr:last-child>td:nth-last-of-type(1){
+				box-shadow:none;
+				border-radius: 0 0 10px 0;  
+			}
+			tr:last-child>td:nth-last-of-type(2),td:nth-last-of-type(3),td:nth-last-of-type(4){
+				box-shadow:none;  
+			}
+			 
+			tr:last-child>td:nth-last-of-type(5){
+				box-shadow:none;  
+				border-radius: 0 0 0 10px; 
+			} 
+			tr{
+				transition:color 0.1s; 
+			}
+			tr:hover{
+				color:#8080FF;
+			}
+			.roadinfo{
+				position:relative;
+				width:50%;
+				height:100px;
+				border:1px solid; 
+				border-radius:10px;
+				color:#8080FF;
+				margin:0 auto;
+			}
+			.roadinfo_pinfo{
+				position:absolute; 
+				left:50%;
+				width:50%;
+				height:100px; 
+				text-align:center;
+				border:1px solid;
+			}
+			.roadinfo_pinfo_tx{
+				position:relative;
+				left:-30%;
+				top:10%;
+				
+			}
+			.roadinfo_pinfo_tips{
+				position:relative;
+				top:-100%;
+				left:10%;
+				
+			}
+			.roadinfo_pinfo_name{
+				position:relative;
+				top:-100%; 
+				left:55%;
+				width:50px;
+				border:1px solid; 
+				word-wrap:break-word; 
+			}
+			.roadinfo_cinfo{
+				position:absolute;   
+				width:50%;
+				height:100px; 
+				text-align:center;
+			}
+			.roadinfo_title{
+				position:relative;   
+				top:-10%;
+				font-size:20px; 
+			}
+			.roadinfo_createdate{
+				position:relative;    
+				top:-20%;
+				font-size:25px;
+			}
+		</style>
+	</head>
+	<body> 
+		<div class="top_img"></div>
+		<div class="roadinfo">
+			<div class="roadinfo_cinfo">
+				<p class="roadinfo_title">赛道创建日期</p>
+				<p class="roadinfo_createdate">2015年8月99号</p>
+			</div>
+			<div class="roadinfo_pinfo">
+				<img src="../../res/img/portrait/0.png" class="roadinfo_pinfo_tx"></img >
+				<p class="roadinfo_pinfo_tips">作者</p>
+				<p class="roadinfo_pinfo_name">hhhhhhhhh</p>
+			</div>
+		</div>
+		<div class="list_cop">
+			<div >
+				 <table>
+					<tr> 
+						<th>赛道</th>
+						<th>车辆</th>
+						<th>最速</th>
+						<th>玩家</th>
+						<th>车队</th> 
+					</tr>
+					$list$
+				 </table>
+			 </div>
+		 </div> 
+		 
+		 <div class="bottom">
+			<p>$createtime$</p>
+		 </div>
+	</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title> -ShadowsCity- </title>
+		<link href="./main_css.css" rel="stylesheet">
+		<style type="text/css">	  
+			.list_cop{
+				position:relative;
+				top:20%;
+				left:25%; 
+				width:50%;    
+				min-height:485px;			
+			}
+			table{   
+				width:100%;
+				height:100%;
+				opacity: 0.7;  
+				
+				border-collapse:collapse;	
+				border-spacing:0; 				
+				border-style:none;
+				
+			}
+			th{
+				color:#8080FF;
+				background-color:#d2e9ff;			
+			}		 
+			th,td{
+				width:20%;
+				height:50px;
+				text-align:center;			
+			} 
+			tr:nth-child(even)>td{
+				background-color:#e5f3ff;			
+				box-shadow:0px -25px 10px 0px #d2e9ff; 
+				
+			}	 	
+			tr:nth-child(odd)>td{
+				background-color:#d2e9ff; 
+				box-shadow:0px 25px 10px 0px #e5f3ff; 
+			}	 
+			tr:first-child>th:nth-last-of-type(1){ 
+				border-radius:0 10px 0 0;  
+			}	 
+			tr:first-child>th:nth-last-of-type(5){
+				border-radius: 10px  0 0 0;  
+			}	
+			tr:last-child>td:nth-last-of-type(1){
+				box-shadow:none;
+				border-radius: 0 0 10px 0;  
+			}
+			tr:last-child>td:nth-last-of-type(2),td:nth-last-of-type(3),td:nth-last-of-type(4){
+				box-shadow:none;  
+			}
+			 
+			tr:last-child>td:nth-last-of-type(5){
+				box-shadow:none;  
+				border-radius: 0 0 0 10px; 
+			} 
+			tr{
+			transition:color 0.1s; 
+			}
+			tr:hover{
+				color:#8080FF;
+			}
+		</style>
+	</head>
+	<body> 
+		<div class="top_img"></div>
+		
+		<div class="list_cop">
+		<div >
+		 <table>
+			<tr> 
+				<th>赛道</th>
+				<th>车辆</th>
+				<th>最速</th>
+				<th>玩家</th>
+				<th>车队</th> 
+			</tr>
+			$list$
+		 </table>
+		 </div>
+		 </div> 
+		 
+		 <div class="bottom">
+			<p>$createtime$</p>
+		 </div>
+	</body>
+</html>
